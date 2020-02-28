@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+<!ELEMENT student (name,branch,doj,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT doj (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ENTITY writer "vaishnavi">
+<!ENTITY copyrights "VA">
+<!ENTITY nbsp "&#160;">
+<!ATTLIST student name CDATA #REQUIRED>
+<!ATTLIST student branch CDATA #REQUIRED>
+<!ATTLIST student doj CDATA #REQUIRED>
+<!ATTLIST student email CDATA #REQUIRED>
+]>
+<students>
+    <heading>Welcome to graphic era</heading>
+    <student>
+        <name catagory="">NAME -: era</name>
+        <branch>BRANCH -: CS</branch>
+        <doj>DOJ -: 2004</doj>
+        <email>EMAIL -:era@gmail.com</email>
+         <footer>&writer;&nbsp;&copyrights;</footer>
+    </student>
+    <br/>
+    <student>
+        <name>NAME -: vaishnavi</name>
+        <branch>BRANCH -: CSE</branch>
+        <doj>DOJ -: 2000</doj>
+        <email>EMAIL -:vaishnavi@gmail.com</email>
+         <footer>&writer;&nbsp;&copyrights;</footer>
+   
+    </student>
+    <br/>
+   
+ </students>
+
+
+
